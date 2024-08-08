@@ -22,19 +22,19 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     <p>Imagen 1:</p>
     <image name="img1" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_1-4ca1bbee.png/max/max/1">
 </div>
-<div style="margin:45px;padding:34px;box-shadow:11px 13px 23px black">
+<div>
     <p>Imagen 2:</p>
     <image name="img2" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_2-527e8c18.png/max/max/1">
 </div>
-<div style="margin:45px;padding:34px;box-shadow:11px 13px 23px black">
+<div>
     <p>Imagen 3:</p>
     <image name="img3" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_3-615d94fe.png/max/max/1">
 </div>
-<div style="margin:45px;padding:34px;box-shadow:11px 13px 23px black">
-    <p>Imagen 5:</p>
+<div>
+    <p>Imagen 4:</p>
     <image name="img4" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_4-70c2dae4.png/max/max/1">
 </div>
-<div style="margin:45px;padding:34px;box-shadow:11px 13px 23px black">
+<div>
     <p>Imagen 5:</p>
     <image name="img5" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_5-8c408690.png/max/max/1">
 </div>
