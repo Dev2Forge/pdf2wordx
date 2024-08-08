@@ -18,7 +18,7 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
 
 ## Pantallazos del programa:
 
-<div style="margin:45px;padding:34px;box-shadow:11px 13px 23px black">
+<div>
     <p>Imagen 1:</p>
     <image name="img1" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_1-4ca1bbee.png/max/max/1">
 </div>
