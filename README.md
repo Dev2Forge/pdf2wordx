@@ -44,3 +44,7 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
 Estaré subiendo en cuanto sea posible nuevas versiones del programa, con mejoras que tomaré por mi cuenta.
 
 <a style="margin:35%" href="https://sourceforge.net/p/pdf-to-word-docx/"><img alt="Download PDF TO WORD docx" src="https://sourceforge.net/sflogo.php?type=17&amp;group_id=3784635" width=200></a>
+
+# Releases
+
+<a href="https://github.com/tutosrivegamerLQ/pdftoword/releases/">Pdf TO Word Releases</a>
