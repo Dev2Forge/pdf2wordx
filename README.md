@@ -42,10 +42,25 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     </div>
 </details>
 
+<details>
+    <summary>Imágenes pdftoword-V2.0.0</summary>
+    <p>Imagen 1:</p>
+    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%280%29-dc164bbc.png/max/max/1">
+    <p>Imagen 2:</p>
+    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%281%29-03616120.png/max/max/1">
+    <p>Imagen 3:</p>
+    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%283%29-21a4d8a6.png/max/max/1">
+    <p>Imagen 4:</p>
+    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%286%29-33faa9d6.png/max/max/1">
+    <p>Imagen 5:</p>
+    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%287%29-50707aaa.png/max/max/1">
+</details>
+
 ## ¿Tendrá actualizaciones?
 
 Estaré subiendo en cuanto sea posible nuevas versiones del programa, con mejoras que tomaré por mi cuenta.
-<a style="margin:35%" href="https://sourceforge.net/p/pdf-to-word-docx/"><img alt="Download PDF TO WORD docx" src="https://sourceforge.net/sflogo.php?type=17&amp;group_id=3784635" width=200></a>
+<a href="https://sourceforge.net/p/pdf-to-word-docx/"><img alt="Download PDF TO WORD docx" src="https://sourceforge.net/sflogo.php?type=17&amp;group_id=3784635" width=200></a>
+
 # Releases
 
 <a href="https://github.com/tutosrivegamerLQ/pdftoword/releases/">Pdf TO Word Releases</a>
