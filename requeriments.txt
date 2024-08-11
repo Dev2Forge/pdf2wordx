@@ -1,2 +1,2 @@
 tkinter==8.6
-pdf2docx
+pdf2docx==0.5.8
