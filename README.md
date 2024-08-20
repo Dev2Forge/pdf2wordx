@@ -1,4 +1,4 @@
-# pdftoword <a href="code/pdftoword.py">Code</a>
+# pdftoword <a href="code/">Code</a>
 ---
 
 [![Download PDF TO WORD docx](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
