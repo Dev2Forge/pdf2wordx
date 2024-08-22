@@ -14,7 +14,6 @@ function darkIconTOLight() {
   icon.forEach((ico) => {
     var name = ico.getAttribute("name");
     var type = ico.classList[0];
-    console.log(type + "=> class");
     var light_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-l.svg`;
     var dark_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-d.svg`;
     url_icos.push([light_icon, dark_icon]);
@@ -121,7 +120,6 @@ function getLanMain(nameRadios) {
       }
     }
   });
-  console.log("Lan Main => " + lan);
   language(lan, nameRadios);
 }
 
@@ -150,7 +148,6 @@ function fetchReadmeMD(file, idHtmlObject) {
   // Agregar el contenido de readme_pdf2docx al blockquote
   const readme_pdf2docx = new Request(file);
   var containerBlockQuote = document.querySelector(`#${idHtmlObject}`);
-  console.log(containerBlockQuote + "=>= This");
 
   try {
     fetch(readme_pdf2docx)
@@ -178,7 +175,6 @@ function getLanpReadme(nameRadios, nameFile, idContainer, idImgLan) {
     }
   });
   const pdftowordLanguaje = `files/blockquote/readme_${nameFile}_${lan}.md`;
-  console.log(lan + "=> get lan readme");
   fetchReadmeMD(pdftowordLanguaje, idContainer);
 }
 
