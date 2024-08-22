@@ -265,7 +265,4 @@ function main() {
   lanOnChangeMain("lan-main");
   lanOnChangePdfToWord("lan-pdftoword");
   lanOnChangePdf2Docx("lan-pdf2docx");
-
-  var links = document.getElementsByTagName('a');
-  links.forEach(link => {link.setAttribute('targe', '_blank')})
 }
