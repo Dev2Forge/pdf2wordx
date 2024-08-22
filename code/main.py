@@ -3,23 +3,26 @@ import files.functions as funcs
 from tkinter import Button, Label, Entry, Tk
 
 
+
 class App(win.Window):
     def __init__(self, root: Tk, width: int = 300, height: int = 300, bgColor: str = 'green', title: str = 'Window', resizable: list = [False, False]) -> None:
         super().__init__(root, width, height, bgColor, title, resizable)
         self.width = width
         self.root = root
+
         root.iconbitmap('favicon.ico')
         # Funcs instance
         self.funcs = funcs.Funcs()
 
         # Main window
         self.root = root
+
         # Elements (widgets)
         self.elements = [Label, Button, Label, Entry, Button, Button, Label, Label, Label, Button, Label]
 
         # Options elements
         self.op_elements = [
-                {'text':'PDF To Docx - SRM','font':('Copyduck', 22), 'fg':'white', 'bg':'#001223'},
+                {'text':'PDF TO DOCX - SRM', 'font':('Helvetica', 20, 'bold'), 'bg':'#001223', 'fg':'white'},
                 {'text':'?','bg':'#9e2900','width':30, 'height':30, 'bitmap':'questhead', 'fg':'#66ff02', 'relief':'sunken', 'command':self.help},
                 {'text':'Nombre Archivo: ', 'bg':'#001223', 'fg':'white'},
                 {'bg':'#13004d','fg':'#ffdd02','font':('Consolas', 12, 'bold'), 'justify':'center'},
@@ -79,16 +82,20 @@ class App(win.Window):
     def convertFile(self) -> None:
         label = self.widget.widgetsList[8]
         buttons = [self.widget.widgetsList[5], self.widget.widgetsList[9]]
-        #button = self.widget.widgetsList[5]
-        self.funcs._convertFile(buttons)
-        txt = self.funcs.directory_out
-        self.funcs._setTextLabel(label, 'Directorio De Salida: ', txt)
+        try:    
+            #button = self.widget.widgetsList[5]
+            self.funcs._convertFile(buttons)
+            txt = self.funcs.directory_out
+            self.funcs._setTextLabel(label, 'Directorio De Salida: ', txt)
+        except Exception as e:
+            print('Error: ', e)
 
     def help(self) -> None:
         self.funcs._help()
 
 
-# Instance App
-app = App(Tk(), 500, 300, '#001223', 'PDF To WORD', [False, False])
-# Loop main window
-app.loopWindow()
+def run():
+    # Instance App
+    app = App(Tk(), 500, 300, '#001223', 'PDF To WORD', [False, False])
+    # Loop main window
+    app.loopWindow()

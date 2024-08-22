@@ -62,6 +62,22 @@ En seulement 2 clics, un **PDF** est converti en un **DOCX**, en utilisant la bi
     </div>
 </details>
 
+<div style="grid-template-columns: 1fr 1fr; display:inline-flex">
+    <details>
+        <summary>Images pdftoword-V2.0.1</summary>
+        <div style="text-align:center;margin:34px">
+            <p>Image 1 :</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+        </div>
+        <div style="text-align:center;margin:34px">
+            <p>Image 2 :</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
+        </div>
+    </details>
+</div>
+
+
+
 ## Y aura-t-il des mises à jour?
 
 Je publierai de nouvelles versions du programme dès que possible, avec des améliorations que je prendrai en compte.

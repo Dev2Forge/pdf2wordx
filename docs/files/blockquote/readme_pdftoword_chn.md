@@ -62,6 +62,21 @@
     </div>
 </details>
 
+<div style="grid-template-columns: 1fr 1fr; display:inline-flex">
+    <details>
+        <summary>pdftoword-V2.0.1 图片</summary>
+        <div style="text-align:center;margin:34px">
+            <p>图片 1:</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+        </div>
+        <div style="text-align:center;margin:34px">
+            <p>图片 2:</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
+        </div>
+    </details>
+</div>
+
+
 ## 会有更新吗？
 
 我会尽快上传程序的新版本，并考虑改进。

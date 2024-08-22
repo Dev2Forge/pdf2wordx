@@ -1,12 +1,16 @@
-# pdftoword <a href="code/">Code</a>
+# pdftoword [Código](Code)
+ [ES](README.md) | [CHN](README/readme_pdftoword_chn.md) | [EN](README/readme_pdftoword_en.md) | [RUS](README/readme_pdftoword_rus.md) | [FRA](README/readme_pdftoword_fra.md)
+
 ---
 
 [![Download PDF TO WORD docx](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 [![Download PDF TO WORD docx](https://img.shields.io/sourceforge/dm/pdf-to-word-docx.svg)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 
+> Nota: El archivo principal es [pdftoword-v2.0.1](code/pdftoword-v2.0.1.pyc) el directorio de ejecución debe ser tal cual a [este](code), ya que es el que maneja los errores y antes de ejecutar el principal. Descargar la última release es lo mejor, By SRM
+
 Convierte tus **PDF** a **DOCX** con este programa diseñado con interfaz gráfica (Python Tkinter).
 
-En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería ***pdf2docx*** para realizar la conversión.
+En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **_pdf2docx_** para realizar la conversión.
 
 **Tener en cuenta**:
 
@@ -14,7 +18,7 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
 
 ⚠ Sólo se permite convertir **PDF**
 
-⚠ Pueden haber errores en el contenido del **DOCX** (colores extraños, textos incoherentes e incluso pérdida de contenido), esto debido al contenido original del **PDF** (podría ser complicado de replicar) 
+⚠ Pueden haber errores en el contenido del **DOCX** (colores extraños, textos incoherentes e incluso pérdida de contenido), esto debido al contenido original del **PDF** (podría ser complicado de replicar)
 
 ## Pantallazos del programa:
 
@@ -22,38 +26,38 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     <summary><strong>Imágenes pdftoword-V1.0</strong></summary>
     <div>
         <p>Imagen 1:</p>
-        <image name="img1" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_1-4ca1bbee.png/max/max/1">
+        <image name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-1.png">
     </div>
     <div>
         <p>Imagen 2:</p>
-        <image name="img2" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_2-527e8c18.png/max/max/1">
+        <image name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-2.png">
     </div>
     <div>
         <p>Imagen 3:</p>
-        <image name="img3" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_3-615d94fe.png/max/max/1">
-    </div>
-    <div>
-        <p>Imagen 4:</p>
-        <image name="img4" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_4-70c2dae4.png/max/max/1">
-    </div>
-    <div>
-        <p>Imagen 5:</p>
-        <image name="img5" src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/Screenshot_5-8c408690.png/max/max/1">
+        <image name="img3" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-3.png">
     </div>
 </details>
 
 <details>
     <summary>Imágenes pdftoword-V2.0.0</summary>
     <p>Imagen 1:</p>
-    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%280%29-dc164bbc.png/max/max/1">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-1.webp">
     <p>Imagen 2:</p>
-    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%281%29-03616120.png/max/max/1">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-2.webp">
     <p>Imagen 3:</p>
-    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%283%29-21a4d8a6.png/max/max/1">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-3.webp">
     <p>Imagen 4:</p>
-    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%286%29-33faa9d6.png/max/max/1">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-4.webp">
     <p>Imagen 5:</p>
-    <image src="https://a.fsdn.com/con/app/proj/pdf-to-word-docx/screenshots/pdftoword-V2.0.0%287%29-50707aaa.png/max/max/1">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-5.webp">
+</details>
+
+<details>
+    <summary>Imágenes pdftoword-V2.0.1</summary>
+    <p>Imagen 1:</p>
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+    <p>Imagen 2:</p>
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
 </details>
 
 ## ¿Tendrá actualizaciones?

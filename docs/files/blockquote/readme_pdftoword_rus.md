@@ -62,6 +62,22 @@
     </div>
 </details>
 
+<div style="grid-template-columns: 1fr 1fr; display:inline-flex">
+    <details>
+        <summary>Изображения pdftoword-V2.0.1</summary>
+        <div style="text-align:center;margin:34px">
+            <p>Изображение 1:</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+        </div>
+        <div style="text-align:center;margin:34px">
+            <p>Изображение 2:</p>
+            <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
+        </div>
+    </details>
+</div>
+
+
+
 ## Будут ли обновления?
 
 Я буду загружать новые версии программы, как только это станет возможным, с улучшениями, которые я приму во внимание.

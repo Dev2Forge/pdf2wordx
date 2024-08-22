@@ -1,4 +1,10 @@
 from tkinter import messagebox, filedialog, Label, Button
+try:
+    import pdf2docx
+except ImportError:
+    import subprocess
+    subprocess.call([sys.executable, "-m", "pip", "install", "pdf2docx"])
+
 from pdf2docx import Converter
 import os
 
@@ -9,7 +15,7 @@ class Funcs:
 
         # StringVar (to output, info, directory)
         self.file_name_original:str
-        self.file_name_out: str
+        self.file_name_out:str
         self.directory_out:str
 
     # Open File read mode
@@ -79,8 +85,10 @@ class Funcs:
 
     def _help(self) -> None:
         try:
-            with open('files\info\help', 'r', encoding='utf-8') as fileHelp:
+            with open('program\\files\\info\\help', 'r', encoding='utf-8') as fileHelp:
                 message = fileHelp.read()
                 messagebox.showinfo('How to use this program?', message)
+                fileHelp.close()
         except Exception as e:
             print('Error in _help(): ', e)
+        
