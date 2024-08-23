@@ -57,7 +57,7 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     <p>Imagen 1:</p>
     <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
     <p>Imagen 2:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
 </details>
 
 ## ¿Tendrá actualizaciones?

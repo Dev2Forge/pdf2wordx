@@ -63,9 +63,9 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     </div>
 </details>
 
-<div style="grid-template-columns: 1fr 1fr; display:inline-flex">
-    <details>
-        <summary>Imágenes pdftoword-V2.0.1</summary>
+<details>
+    <summary>Imágenes pdftoword-V2.0.1</summary>
+    <div style="grid-template-columns: 1fr 1fr; display:inline-flex">
         <div style="text-align:center;margin:34px">
             <p>Imagen 1:</p>
             <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
@@ -74,10 +74,8 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
             <p>Imagen 2:</p>
             <img style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
         </div>
-    </details>
-</div>
-
-
+    </div>
+</details>
 
 ## ¿Tendrá actualizaciones?
 
