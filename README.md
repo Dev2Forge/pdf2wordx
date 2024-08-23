@@ -1,4 +1,4 @@
-# pdftoword [Código](Code)
+# pdftoword [Código](./code/)
  [ES](README.md) | [CHN](README/readme_pdftoword_chn.md) | [EN](README/readme_pdftoword_en.md) | [RUS](README/readme_pdftoword_rus.md) | [FRA](README/readme_pdftoword_fra.md)
 
 ---
