@@ -1,12 +1,13 @@
 # pdftoword [Código](./code/)
- [ES](README.md) | [CHN](README/readme_pdftoword_chn.md) | [EN](README/readme_pdftoword_en.md) | [RUS](README/readme_pdftoword_rus.md) | [FRA](README/readme_pdftoword_fra.md)
+
+[ES](README.md) | [CHN](README/readme_pdftoword_chn.md) | [EN](README/readme_pdftoword_en.md) | [RUS](README/readme_pdftoword_rus.md) | [FRA](README/readme_pdftoword_fra.md)
 
 ---
 
 [![Download PDF TO WORD docx](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 [![Download PDF TO WORD docx](https://img.shields.io/sourceforge/dm/pdf-to-word-docx.svg)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 
-> Nota: El archivo principal es [pdftoword-v2.0.1](code/pdftoword-v2.0.1.pyc) el directorio de ejecución debe ser tal cual a [este](code), ya que es el que maneja los errores y antes de ejecutar el principal. Descargar la última release es lo mejor, By SRM
+> Nota: El archivo principal es [pdftoword-v2.0.1](code/pdftoword-v2.1.0.pyc) el directorio de ejecución debe ser tal cual a [este](code), ya que es el que maneja los errores y antes de ejecutar el principal. Descargar la última release es lo mejor, By SRM
 
 Convierte tus **PDF** a **DOCX** con este programa diseñado con interfaz gráfica (Python Tkinter).
 

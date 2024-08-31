@@ -1,9 +1,5 @@
 from tkinter import messagebox, filedialog, Label, Button
-try:
-    import pdf2docx
-except ImportError:
-    import subprocess
-    subprocess.call([sys.executable, "-m", "pip", "install", "pdf2docx"])
+import asyncio
 
 from pdf2docx import Converter
 import os
@@ -47,10 +43,11 @@ class Funcs:
         return os.path.basename(file)
 
     # File converter
-    def _convertFile(self, button) -> None:
+    async def _convertFile(self, button) -> None:
         try:
             convertFile = Converter(self.file)
-            convertFile.convert(self.directory_out)
+            messagebox.showinfo("Información", f'Convirtiendo {self.file}')
+            await asyncio.sleep(1, result=convertFile.convert(self.directory_out))
             convertFile.close()
             self._disableButton(button)
             messagebox.showinfo('Conversión Exitosa',f'Se ha convertido el archivo {self.file_name_original} exitosamente')

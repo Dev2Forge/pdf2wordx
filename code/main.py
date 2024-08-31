@@ -1,7 +1,8 @@
 import files.interfaz as win
 import files.functions as funcs
 from tkinter import Button, Label, Entry, Tk
-
+from threading import Thread
+import asyncio
 
 
 class App(win.Window):
@@ -82,9 +83,9 @@ class App(win.Window):
     def convertFile(self) -> None:
         label = self.widget.widgetsList[8]
         buttons = [self.widget.widgetsList[5], self.widget.widgetsList[9]]
-        try:    
-            #button = self.widget.widgetsList[5]
-            self.funcs._convertFile(buttons)
+        try:
+            # Exe func in other Thread
+            Thread(target=lambda: asyncio.run(self.funcs._convertFile(buttons))).start()
             txt = self.funcs.directory_out
             self.funcs._setTextLabel(label, 'Directorio De Salida: ', txt)
         except Exception as e:
@@ -99,3 +100,6 @@ def run():
     app = App(Tk(), 500, 300, '#001223', 'PDF To WORD', [False, False])
     # Loop main window
     app.loopWindow()
+
+if __name__ == "__main__":
+    run()
