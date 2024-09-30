@@ -225,15 +225,9 @@ function radiosLanWho(nameRadios) {
 // Cambiar la imagen del botón de lenguaje según idioma seleccionado
 function btnFlagLan(id, lan) {
   var imgButton = document.querySelector(`#${id}`);
-  imgButton.setAttribute("src", `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/flags-svg/flag-${lan}.svg`);
-}
-
-function colorTxt(idColorSelector) {
-  var colorSelector = document.querySelector(`#${idColorSelector}`);
-  var body = document.body;
-  colorSelector.addEventListener(
-    "input",
-    (event) => (body.style.cssText = `--body-color: ${event.target.value}`)
+  imgButton.setAttribute(
+    "src",
+    `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/flags-svg/flag-${lan}.svg`
   );
 }
 
