@@ -1,9 +1,10 @@
+/* body{background-color: black;} */
 :root {
   --body-color: rgb(0, 0, 0);
   --bg-color: rgb(255, 255, 255);
   --link-color: rgb(255, 102, 0);
-  --titles-color: rgb(255, 0, 0);
-  --title-second-color: rgb(255, 0, 0);
+  --titles-color: rgb(241, 1, 1);
+  --title-second-color: rgb(33, 0, 151);
   --cur1: url("https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/cursors/cursor1.svg");
 }
 
@@ -14,18 +15,18 @@
 
 body {
   color: var(--body-color);
+  width: 100%;
   background-color: var(--bg-color);
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 1rem 3rem;
-  /* Use rem for responsive padding */
+  font-family: Verdana Geneva, Tahoma, sans-serif;
+  padding: 13px 55px;
   box-sizing: border-box;
 }
 
 .dark-theme {
-  color-scheme: dark;
-  --body-color: rgb(255, 255, 255);
+  --body-color: rgb(221, 221, 221);
   --bg-color: black;
+  color-scheme: dark;
   --link-color: rgb(204, 14, 0);
   --pre-color: rgb(255, 255, 255);
 }
@@ -43,16 +44,15 @@ nav {
   border-radius: 20px;
   box-shadow: 1px 1px 12px var(--body-color);
   display: inline-block;
-  padding: 1rem;
-  /* Adjusted padding for better responsiveness */
+  padding: 4px;
 }
 
 nav img {
   filter: drop-shadow(1px 1px 1px red);
   max-width: 50px;
   vertical-align: middle;
-  padding: 0.5rem;
-  margin: auto 1rem;
+  padding: 5px;
+  margin: auto 10px;
 }
 
 .nav-link {
@@ -61,20 +61,10 @@ nav img {
   color: var(--body-color);
 }
 
-.spam-download {
-  box-shadow: 2px 2px 12px var(--body-color);
-  padding: 1rem;
-  border-radius: 22px;
-  width: 100%;
-  /* Allow it to take full width on smaller screens */
-  max-width: 320px;
-  /* Set a maximum width */
-  height: auto;
-  /* Remove fixed height */
-}
-
-.spam-download div {
-  transform: translateY(-32px);
+.language-container {
+  width: 20px;
+  text-align: center;
+  align-items: end;
 }
 
 .flag {
@@ -87,32 +77,32 @@ nav img {
 
 .title-main {
   color: var(--titles-color);
-  filter: drop-shadow(1px 1px 1px var(--body-color));
+  filter: drop-shadow(3px 2px 2px var(--body-color));
   font-family: "copyduck";
-  font-size: 2.5rem;
-  /* Use rem or em for scalability */
-  transform: translateY(-60px);
+  font-size: xx-large;
+  transform: translateY(-80px);
   margin: auto auto -90px auto !important;
 }
 
 div {
-  margin: 2.5rem auto;
-  /* Use rem for consistent spacing */
+  margin: 45px auto;
 }
 
 pre {
   background-color: rgb(34, 34, 34);
   color: wheat;
-  padding: 1rem;
-  /* Use rem for consistency */
+  padding: 12px;
   border-radius: 12px;
-  display: inline-block;
+  display: block;
+  text-wrap: wrap;
+  width: 60%;
 }
 
 h2 {
   color: var(--title-second-color);
-  font-family: impact, Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: xx-large;
 }
 
 a {
@@ -123,70 +113,166 @@ a {
 .dropdown {
   position: fixed;
   margin: auto auto auto calc(100% - 110px);
-  top: 1rem;
-  /* Use rem */
+  top: 12px;
   z-index: 3;
 }
 
-.dropdown-content-1,
-.dropdown-content-2,
-.dropdown-content-3 {
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  min-width: 56px;
+  filter: drop-shadow(1px 1px 2px rgb(0, 0, 255));
+  z-index: 7;
+  margin: 0px 0px 0px -40px;
+}
+
+.dropdown-content-1 label {
+  display: block;
+  padding: 8px 16px;
+  cursor: help;
+}
+
+.dropdown-content-1 label:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content-1 {
+  display: block;
+}
+
+.lan-pdf2 {
+  position: relative !important;
+}
+
+.lan-pdfto {
+  position: relative !important;
+}
+
+.dropdown-2 {
+  position: absolute;
+  /* margin: auto auto auto 9%; */
+  display: inline-block;
+  margin: 12px auto auto calc(10% - 10px);
+}
+
+.dropdown-content-2 {
   display: none;
   position: absolute;
   min-width: 160px;
-  /* Adjusted for consistency */
   filter: drop-shadow(1px 1px 2px black);
   z-index: 1;
   margin: auto -223px auto auto;
 }
 
-.dropdown-content-1 label,
-.dropdown-content-2 label,
-.dropdown-content-3 label {
+.dropdown-content-2 label {
   display: inline-block;
-  padding: 2rem -1rem;
-  /* Use rem for padding */
+  padding: 8px 16px;
   cursor: help;
 }
 
-.dropdown-content-1 label:hover,
-.dropdown-content-2 label:hover,
+.container-flags {
+  display: inline-flex;
+  margin: auto auto auto 5px;
+}
+
+.dropdown-content-2 label:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+  display: inline-flex;
+}
+
+.dropdown-3 {
+  position: absolute;
+  margin: 12px auto auto 9%;
+  display: inline-block;
+}
+
+.dropdown-content-3 {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  filter: drop-shadow(1px 1px 2px black);
+  z-index: 1;
+  margin: auto -223px auto auto;
+}
+
+.container-flags {
+  display: inline-flex;
+  margin: auto auto auto 5px;
+}
+
+.dropdown-content-3 label {
+  display: block;
+  padding: 8px 16px;
+  cursor: help;
+}
+
 .dropdown-content-3 label:hover {
   background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content-1,
-.dropdown-2:hover .dropdown-content-2,
 .dropdown-3:hover .dropdown-content-3 {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .img-lan {
   filter: drop-shadow(1px 1px 5px rgb(255, 0, 0));
   max-width: 100%;
-  /* Make images responsive */
 }
 
 .moon-theme {
   position: fixed;
+  margin: auto auto auto calc(100% - 115px);
+  top: 50px;
   display: block;
   filter: drop-shadow(2px 2px 4px rgb(255, 0, 0));
   z-index: 1;
-  top: 50px;
-  margin: auto auto auto calc(100% - 85px);
+}
+
+.spam-download {
+  box-shadow: 1px 1px 3px var(--body-color);
+  padding: 22px;
+  width: 30%;
+  height: 90px;
+  border-radius: 23px;
+}
+
+.spam-download > div {
+  transform: translateY(-42px);
+  width: 290px;
+}
+
+.autor {
+  text-align: center;
+}
+.autor > pre {
+  display: inline-block;
+  width: 20%;
 }
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+  .autor {
+    transform: translateX(12px);
+    text-align: center;
+  }
+  .autor > pre {
+    display: inline-block;
+    width: 50%;
+  }
   .title-main {
+    transform: translateY(-50px);
     font-size: 2rem;
     /* Adjust font size for smaller screens */
   }
 
   body {
-    padding: 1rem;
+    padding: 2rem;
     /* Less padding on smaller screens */
     zoom: 80%;
+    font-size: 25px;
   }
 
   nav {
@@ -197,17 +283,51 @@ a {
   .spam-download {
     width: 90%;
     /* Morewidth on smaller screens */
-    height: 95px;
+    height: 225px;
   }
 
   .dropdown {
-    margin: 90px 9px;
+    margin: 115px 9px;
     /* Adjust dropdown position */
+  }
+
+  .flag {
+    width: 20px;
+    zoom: 1.4;
+  }
+
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    min-width: 56px;
+    filter: drop-shadow(1px 1px 2px rgb(0, 0, 255));
+    z-index: 7;
+    margin: -25px 0px 0px 31px;
+  }
+
+  .dropdown-content-1 label {
+    display: block;
+    padding: 8px 16px;
+    cursor: help;
+  }
+
+  .dropdown-content-1 label:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content-1 {
+    display: block;
   }
 
   .moon-theme {
     top: 50px;
-    margin: 12px 5px;
+    margin: 35px 5px;
+  }
+
+  pre {
+    width: 100%;
+    transform: translateX(-32px);
+    text-align: left;
   }
 }
 
@@ -221,11 +341,21 @@ a {
     max-width: 40px;
     /* Smaller images */
   }
+  pre {
+    width: 100%;
+    transform: translateX(-32px);
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .title-main {
     font-size: 1.2rem;
     /* Minimized title font */
+  }
+  pre {
+    width: 100%;
+    transform: translateX(-32px);
+    text-align: left;
   }
 }
