@@ -80,7 +80,7 @@ nav img {
   filter: drop-shadow(3px 2px 2px var(--body-color));
   font-family: "copyduck";
   font-size: xx-large;
-  transform: translateY(-80px);
+  transform: translateY(-50px);
   margin: auto auto -90px auto !important;
 }
 
@@ -235,7 +235,7 @@ a {
   box-shadow: 1px 1px 3px var(--body-color);
   padding: 22px;
   width: 30%;
-  height: 90px;
+  height: 110px;
   border-radius: 23px;
 }
 

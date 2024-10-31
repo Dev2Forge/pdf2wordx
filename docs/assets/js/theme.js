@@ -6,24 +6,24 @@ function changeTheme() {
 
 function darkIconTOLight() {
   // Obtener todos los elementos con clase (.icon)
-  var icon = document.querySelectorAll(".icon");
+  let icon = document.querySelectorAll(".icon");
   // Definir iconos dark e iconos light para cada ícono
   // console.log(icon[1].getAttribute('name'))
-  var url_icos = [];
+  let url_icos = [];
   // Por cada ícono se agrega su nomre y sus adjetivos dark - lite
   icon.forEach((ico) => {
-    var name = ico.getAttribute("name");
-    var type = ico.classList[0];
-    var light_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-l.svg`;
-    var dark_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-d.svg`;
+    let name = ico.getAttribute("name");
+    let type = ico.classList[0];
+    let light_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-l.svg`;
+    let dark_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-d.svg`;
     url_icos.push([light_icon, dark_icon]);
   });
 
   try {
     // desde i = 0 hasta longitud de icon -1
-    for (var i = 0; i < icon.length; i++) {
+    for (let i = 0; i < icon.length; i++) {
       // ico[i] => ico[0], ico[1]... ico[n]
-      var ico = icon[i];
+      let ico = icon[i];
       //Verificar si el atributo src (img.src) es igual a iconname-dark
       if (ico.getAttribute("src") == url_icos[i][0]) {
         // Establecer ícono en light
@@ -34,18 +34,18 @@ function darkIconTOLight() {
       }
     }
   } catch (error) {
-    console.error("Error catched by SRM: " + error);
+    console.error("Error: " + error);
   }
 }
 
 // Opne cualquier url sin necesidad de <a>
-var urlOpen = (str) => {
-  var url = new URL(str);
+let urlOpen = (str) => {
+  let url = new URL(str);
   open(url);
 };
 
 // Cambiar Lenguage
-function language(language, nameRadiosMain) {
+async function language(language, nameRadiosMain) {
   // Cambiar el idioma también del README.md
   getLanpReadme(
     nameRadiosMain,
@@ -60,56 +60,44 @@ function language(language, nameRadiosMain) {
     "btn-pdf2docx-lan"
   );
   // Crear solicitud (para abrir el archivo con fetch)
-  var solicitud = new Request(`files/language/${language}.json`);
-  var page_title = document.querySelector("#page_title");
-  var description = document.querySelector("#description");
-  var whats_title = document.querySelector("#whats_title");
-  var spam_download = document.querySelector("#spam_download");
-  var whats_pdftoword = document.querySelector("#whats_pdftoword");
-  var features = document.querySelector("#features");
-  var how_use_title = document.querySelector("#how_use_title");
-  var how_use = document.querySelector("#how_use");
-  var limits = document.querySelector("#limits");
-  var known_bugs_title = document.querySelector("#known_bugs_title");
-  var known_bugs = document.querySelector("#known_bugs");
-  var summary_readme_pdftoword = document.querySelector(
-    "#summary_readme_pdftoword"
-  );
-  var summary_readme_pdf2docx = document.querySelector(
-    "#summary_readme_pdf2docx"
-  );
-  var comments = document.querySelector("#comments");
-  var autor = document.querySelector("#autor");
+  let solicitud = new Request(`files/language/${language}.json`);
+  // Crear lista de selectores
+  let selectors = [
+    "#page_title",
+    "#description",
+    "#whats_title",
+    "#spam_download",
+    "#whats_pdftoword",
+    "#features",
+    "#how_use_title",
+    "#how_use",
+    "#limits",
+    "#known_bugs_title",
+    "#known_bugs",
+    "#summary_readme_pdftoword",
+    "#summary_readme_pdf2docx",
+    "#comments",
+  ];
+  // Seleccionar la lista de contenedores
+  let containers = document.querySelectorAll(selectors);
 
   try {
     // Solicitud de abrir y acceder al archivo
-    fetch(solicitud)
-      .then((res) => res.json())
-      .then((data) => {
-        page_title.innerHTML = `${data["page_title"]}`;
-        description.innerHTML = `${data["description"]}`;
-        whats_title.innerHTML = `${data["whats_title"]}`;
-        spam_download.innerHTML = `${data["spam_download"]}`;
-        whats_pdftoword.innerHTML = `${data["whats_pdftoword"]}`;
-        features.innerHTML = `${data["features"]}`;
-        how_use_title.innerHTML = `${data["how_use_title"]}`;
-        how_use.innerHTML = `${data["how_use"]}`;
-        limits.innerHTML = `${data["limits"]}`;
-        known_bugs_title.innerHTML = `${data["known_bugs_title"]}`;
-        known_bugs.innerHTML = `${data["known_bugs"]}`;
-        summary_readme_pdftoword.innerHTML = `${data["summary_readme_pdftoword"]}`;
-        summary_readme_pdf2docx.innerHTML = `${data["summary_readme_pdf2docx"]}`;
-        comments.innerHTML = `${data["comments"]}`;
-        autor.innerHTML = `${data["autor"]}`;
-      });
+    const request = await fetch(solicitud);
+    const response = await request.json();
+
+    // Agregar el contenido correspondiente a cada elemento
+    containers.forEach((element) => {
+      element.innerHTML = response[element.id];
+    });
   } catch (error) {
-    console.error("Error en (SRM): " + error);
+    console.error("Error en: " + error);
   }
 }
 
 function getLanMain(nameRadios) {
-  var radios = document.getElementsByName(nameRadios);
-  var lan;
+  let radios = document.getElementsByName(nameRadios);
+  let lan;
   // Buscar entre los radios cual está seleccionado y pasar su valor a lan
   radios.forEach((radio) => {
     if (radio.checked) {
@@ -125,8 +113,8 @@ function getLanMain(nameRadios) {
 
 // Poner en checked los readme al mismo idioma del principal
 function checkSelectedLan(lan) {
-  var docx2 = document.getElementsByName("lan-pdf2docx");
-  var docxto = document.getElementsByName("lan-pdftoword");
+  let docx2 = document.getElementsByName("lan-pdf2docx");
+  let docxto = document.getElementsByName("lan-pdftoword");
   docx2.forEach((language) => {
     if (language.value == lan) {
       language.checked = true;
@@ -144,27 +132,26 @@ function checkSelectedLan(lan) {
 }
 
 // Obtener contenido de un README.md y ponerlo en el HTML
-function fetchReadmeMD(file, idHtmlObject) {
+async function fetchReadmeMD(file, idHtmlObject) {
   // Agregar el contenido de readme_pdf2docx al blockquote
   const readme_pdf2docx = new Request(file);
-  var containerBlockQuote = document.querySelector(`#${idHtmlObject}`);
+  let containerBlockQuote = document.querySelector(`#${idHtmlObject}`);
 
   try {
-    fetch(readme_pdf2docx)
-      .then((respon) => respon.text())
-      .then((content) => {
-        var htmlContent = marked.marked(content);
-        containerBlockQuote.innerHTML = htmlContent;
-      });
+    const request = await fetch(readme_pdf2docx);
+    const response = await request.text();
+
+    let htmlContent = marked.marked(response);
+    containerBlockQuote.innerHTML = htmlContent;
   } catch (error) {
-    console.error("Error en (SRM): " + error);
+    console.error("Error: " + error);
   }
 }
 
 function getLanpReadme(nameRadios, nameFile, idContainer, idImgLan) {
-  // var select = document.querySelector(`#${idSelect}`);
-  var lans = document.getElementsByName(nameRadios);
-  var lan;
+  // let select = document.querySelector(`#${idSelect}`);
+  let lans = document.getElementsByName(nameRadios);
+  let lan;
   // El lenguaje será el radio seleccionado
   lans.forEach((lanRadio) => {
     if (lanRadio.checked) {
@@ -180,19 +167,19 @@ function getLanpReadme(nameRadios, nameFile, idContainer, idImgLan) {
 
 // Ejecutar cambio de lenguajes cuando se haga un cambio
 function lanOnChangeMain() {
-  var radios = document.getElementsByName("lan-main");
+  let radios = document.getElementsByName("lan-main");
   radios.forEach((radio) => {
     radio.setAttribute("onchange", 'radiosLanWho("lan-main")');
   });
 }
 function lanOnChangePdfToWord() {
-  var radios = document.getElementsByName("lan-pdftoword");
+  let radios = document.getElementsByName("lan-pdftoword");
   radios.forEach((radio) => {
     radio.setAttribute("onchange", 'radiosLanWho("lan-pdftoword")');
   });
 }
 function lanOnChangePdf2Docx() {
-  var radios = document.getElementsByName("lan-pdf2docx");
+  let radios = document.getElementsByName("lan-pdf2docx");
   radios.forEach((radio) => {
     radio.setAttribute("onchange", 'radiosLanWho("lan-pdf2docx")');
   });
@@ -224,7 +211,7 @@ function radiosLanWho(nameRadios) {
 
 // Cambiar la imagen del botón de lenguaje según idioma seleccionado
 function btnFlagLan(id, lan) {
-  var imgButton = document.querySelector(`#${id}`);
+  let imgButton = document.querySelector(`#${id}`);
   imgButton.setAttribute(
     "src",
     `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/flags-svg/flag-${lan}.svg`
