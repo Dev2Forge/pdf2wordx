@@ -14,6 +14,7 @@
 }
 
 body {
+  overflow-x: hidden;
   color: var(--body-color);
   width: 100%;
   background-color: var(--bg-color);
@@ -84,7 +85,7 @@ nav img {
   margin: auto auto -90px auto !important;
 }
 
-div {
+body div:not(.banner):not(.banner *) {
   margin: 45px auto;
 }
 

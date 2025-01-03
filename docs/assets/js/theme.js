@@ -218,6 +218,16 @@ function btnFlagLan(id, lan) {
   );
 }
 
+// Popover
+function pop() {
+  const html =
+    '<button id="btn-tog" popovertarget="banner-ouo" popovertargetaction="toggle"></button>';
+  document.body.insertAdjacentHTML("afterend", html);
+  const btn = document.querySelector("#btn-tog");
+  btn.click();
+  btn.remove();
+}
+
 function main() {
   // Ejecutar la selección del lenguaje
   getLanMain("lan-main");
@@ -242,4 +252,5 @@ function main() {
   lanOnChangeMain("lan-main");
   lanOnChangePdfToWord("lan-pdftoword");
   lanOnChangePdf2Docx("lan-pdf2docx");
+  pop();
 }
