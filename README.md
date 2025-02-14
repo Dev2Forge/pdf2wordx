@@ -27,38 +27,38 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
     <summary><strong>Imágenes pdftoword-V1.0</strong></summary>
     <div>
         <p>Imagen 1:</p>
-        <image name="img1" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-1.png">
+        <image name="img1" src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-1.png">
     </div>
     <div>
         <p>Imagen 2:</p>
-        <image name="img2" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-2.png">
+        <image name="img2" src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-2.png">
     </div>
     <div>
         <p>Imagen 3:</p>
-        <image name="img3" src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-3.png">
+        <image name="img3" src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v1.0-Alpha/v1alpha-3.png">
     </div>
 </details>
 
 <details>
     <summary>Imágenes pdftoword-V2.0.0</summary>
     <p>Imagen 1:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-1.webp">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-1.webp">
     <p>Imagen 2:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-2.webp">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-2.webp">
     <p>Imagen 3:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-3.webp">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-3.webp">
     <p>Imagen 4:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-4.webp">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-4.webp">
     <p>Imagen 5:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-5.webp">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.0-IMG/v2.0.0-5.webp">
 </details>
 
 <details>
     <summary>Imágenes pdftoword-V2.0.1</summary>
     <p>Imagen 1:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-1.png">
     <p>Imagen 2:</p>
-    <image src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
+    <image src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/img-pdftoword/v2.0.1-IMG/v2.0.1-2.png">
 </details>
 
 ## ¿Tendrá actualizaciones?
@@ -68,4 +68,4 @@ Estaré subiendo en cuanto sea posible nuevas versiones del programa, con mejora
 
 # Releases
 
-<a href="https://github.com/tutosrivegamerLQ/pdftoword/releases/">Pdf TO Word Releases</a>
+<a href="https://github.com/tutosrive/pdftoword/releases/">Pdf TO Word Releases</a>
