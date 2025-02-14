@@ -14,8 +14,8 @@ function darkIconTOLight() {
   icon.forEach((ico) => {
     let name = ico.getAttribute("name");
     let type = ico.classList[0];
-    let light_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-l.svg`;
-    let dark_icon = `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-d.svg`;
+    let light_icon = `https://github.com/tutosrive/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-l.svg`;
+    let dark_icon = `https://github.com/tutosrive/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/${type}/${name}-d.svg`;
     url_icos.push([light_icon, dark_icon]);
   });
 
@@ -214,7 +214,7 @@ function btnFlagLan(id, lan) {
   let imgButton = document.querySelector(`#${id}`);
   imgButton.setAttribute(
     "src",
-    `https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/flags-svg/flag-${lan}.svg`
+    `https://github.com/tutosrive/images-projects-srm-trg/raw/main/svg-icons-flags-cursor/flags-svg/flag-${lan}.svg`
   );
 }
 

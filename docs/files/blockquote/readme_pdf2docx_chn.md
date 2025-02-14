@@ -65,5 +65,5 @@
 ## 示例
 
 <div style="" class="centered">
-    <img style="filter: drop-shadow(5px 5px 4px var(--body-color))" width=80% src="https://github.com/tutosrivegamerLQ/images-projects-srm-trg/raw/main/pdf2docx/sample-pdf2docx.png">
+    <img style="filter: drop-shadow(5px 5px 4px var(--body-color))" width=80% src="https://github.com/tutosrive/images-projects-srm-trg/raw/main/pdf2docx/sample-pdf2docx.png">
 </div>
