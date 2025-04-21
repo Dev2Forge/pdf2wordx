@@ -4,6 +4,20 @@
 
 ---
 
+<div style="display: flex; align-items: center; justify-content: center; margin: 10px 0; gap: 10px; max-height: 48px; height: 48px;">
+  <a href="https://github.com/sponsors/tutosrive" target="_blank">
+  <img src="https://img.shields.io/badge/Sponsor-%F0%9F%92%96%20tutosrive-orange?style=for-the-badge&logo=github" alt="Sponsor me on GitHub">
+</a>
+  <a href="https://www.buymeacoffee.com/tutosrive">
+    <img 
+      src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tutosrive&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" 
+      style="height: 48px; width: auto; object-fit: contain; border-radius: 6px;" 
+      alt="Buy me a coffee button">
+  </a>
+</div>
+
+---
+
 [![Download PDF TO WORD docx](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 [![Download PDF TO WORD docx](https://img.shields.io/sourceforge/dm/pdf-to-word-docx.svg)](https://sourceforge.net/projects/pdf-to-word-docx/files/latest/download)
 
