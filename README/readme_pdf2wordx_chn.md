@@ -37,6 +37,12 @@
 ```shell
 pip install pdf2wordx
 ```
+> 安装完成（pdf2wordx）后，在控制台中运行
+> ```shell
+> pdf2wordx
+> ```
+> 这将启动程序。
+
 ---
 
 使用这个具有图形界面的程序将你的 **PDF** 转换为 **DOCX**（Python Tkinter）。

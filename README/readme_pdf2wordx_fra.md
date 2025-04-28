@@ -37,6 +37,12 @@ Téléchargements soruceforge.net ==> [![Download pdf2wordx Source Forget](https
 ```shell
 pip install pdf2wordx
 ```
+> Une fois installé (pdf2wordx), exécutez dans une console
+> ```shell
+> pdf2wordx
+> ```
+> Cela lancera le programme.
+
 ---
 
 Convertissez vos **PDF** en **DOCX** avec ce programme conçu avec une interface graphique (Python Tkinter).
