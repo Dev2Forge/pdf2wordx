@@ -111,6 +111,49 @@ pip install pdf2wordx
     </details>
 </div>
 
+<details>
+  <summary>pdftoword-V2.1.2 图像</summary>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr">
+    <div style="text-align:center; margin:34px">
+      <p>图像 1：主界面</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+    </div>
+    <div style="text-align:center; margin:34px">
+      <p>图像 2：开源许可证</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+    </div>
+  </div>
+  <div style="text-align:center; margin:34px auto 113px auto">
+    <p>图像 3：使用程序的帮助</p>
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+  </div>
+</details>
+
+## 本地使用
+
+> [!NOTE]
+> 请始终从项目根目录运行命令。
+> 
+> 执行文件是 `./src/pdf2wordx/_pdf2wordx.py`
+
+1. 克隆仓库
+```shell
+git clone https://github.com/tutosrive/pdf2wordx.git
+```
+2. 使用你喜欢的编辑器打开从 **GitHub** 克隆的文件夹 (_pdf2wordx_)
+3. （可选）创建一个虚拟环境
+```shell
+python -m venv .venv
+```
+4. 安装依赖项
+```shell
+pip install -r requirements.txt
+```
+5. 打开编辑器的终端并执行：
+```shell
+python ./src/pdf2wordx/_pdf2wordx.py
+```
+
 
 ## 会有更新吗？
 

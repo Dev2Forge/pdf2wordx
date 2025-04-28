@@ -111,6 +111,48 @@ pip install pdf2wordx
     </details>
 </div>
 
+<details>
+  <summary>Изображения pdftoword-V2.1.2</summary>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr">
+    <div style="text-align:center; margin:34px">
+      <p>Изображение 1: Основной интерфейс</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+    </div>
+    <div style="text-align:center; margin:34px">
+      <p>Изображение 2: Лицензия с открытым исходным кодом</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+    </div>
+  </div>
+  <div style="text-align:center; margin:34px auto 113px auto">
+    <p>Изображение 3: Справка по использованию программы</p>
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+  </div>
+</details>
+
+## Локальное использование
+
+> [!NOTE]
+> Всегда выполняйте команды из корня проекта.
+> 
+> Файл для запуска: `./src/pdf2wordx/_pdf2wordx.py`
+
+1. Клонируйте репозиторий
+```shell
+git clone https://github.com/tutosrive/pdf2wordx.git
+```
+2. Откройте склонированную папку из **GitHub** (_pdf2wordx_) в вашем любимом редакторе
+3. (необязательно): Создайте виртуальное окружение
+```shell
+python -m venv .venv
+```
+4. Установите зависимости
+```shell
+pip install -r requirements.txt
+```
+5. Откройте терминал в редакторе и выполните:
+```shell
+python ./src/pdf2wordx/_pdf2wordx.py
+```
 
 
 ## Будут ли обновления?

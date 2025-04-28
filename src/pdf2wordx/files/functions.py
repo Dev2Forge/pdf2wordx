@@ -3,11 +3,8 @@ import asyncio
 from chromologger import Logger
 from pdf2docx import Converter
 import os
-from importlib.resources import files
-import pdf2wordx
 
-log_path:str = files(pdf2wordx).joinpath('log.log')
-logger:Logger = Logger(str(log_path))
+logger:Logger = Logger('./src/pdf2wordx/log.log')
 
 class Funcs:
     def __init__(self) -> None:

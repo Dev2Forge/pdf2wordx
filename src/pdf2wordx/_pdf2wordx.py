@@ -1,22 +1,18 @@
-from .files import interfaz as win
-from .files import functions as funcs
+from files import interfaz as win
+from files import functions as funcs
 from tkinter import Button, Label, Entry, Tk
 from threading import Thread
 import asyncio
 from chromologger import Logger
-from importlib.resources import files
-import pdf2wordx
 
-log_path:str = files(pdf2wordx).joinpath('log.log')
-logger:Logger = Logger(str(log_path))
+logger:Logger = Logger('./src/pdf2wordx/log.log')
 
 class App(win.Window):
     def __init__(self, root: Tk, width: int = 300, height: int = 300, bgColor: str = 'green', title: str = 'Window', resizable: list = [False, False]) -> None:
         super().__init__(root, width, height, bgColor, title, resizable)
         self.width = width
         self.root = root
-        icon_path = files(pdf2wordx).joinpath('favicon.ico')
-        root.iconbitmap(str(icon_path))
+        root.iconbitmap('./src/pdf2wordx/favicon.ico')
         # Funcs instance
         self.funcs = funcs.Funcs()
 
@@ -70,8 +66,7 @@ class App(win.Window):
         self.widget.widgetsList[4].insert(0, 'document-pdf2wordx')
 
     def osl(self) -> None:
-        __path:str = files(pdf2wordx).joinpath('files/info/NOTICE')
-        self.funcs.msgbox(__path, 'Open Source Licenses - Notice')
+        self.funcs.msgbox('./src/pdf2wordx/files/info/NOTICE', 'Open Source Licenses - Notice')
 
     def fileSet(self) -> None:
         button = self.widget.widgetsList[6]
@@ -103,8 +98,7 @@ class App(win.Window):
             logger.log_e(e)
 
     def help(self) -> None:
-        __path:str = files(pdf2wordx).joinpath('files/info/help')
-        self.funcs.msgbox(__path, '¿Cómo usar este programa?')
+        self.funcs.msgbox('./src/pdf2wordx/files/info/help', '¿Cómo usar este programa?')
 
 
 def run():

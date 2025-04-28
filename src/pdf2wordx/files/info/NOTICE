@@ -2,8 +2,4 @@ NOTICE
 
 Este proyecto integra funcionalidad de pdf2docx (ArtifexSoftware) bajo GNU Affero General Public License v3.0 o posterior.
 
-Además, incluye componentes de Nuitka (Kay Hayen and Nuitka Contributors) bajo Apache License 2.0.
-
 Agradecimientos especiales al equipo de pdf2docx por su dedicación y esfuerzo: sin su biblioteca, la conversión fiable y gratuita de PDF a DOCX no habría sido posible.
-
-También reconocemos el excelente trabajo de los mantenedores de Nuitka, cuyo compilador ha sido clave para distribuir nuestra aplicación en formato ejecutable.

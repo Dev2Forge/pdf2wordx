@@ -1,1 +1,2 @@
 pdf2docx==0.5.8
+chromologger==0.1.8

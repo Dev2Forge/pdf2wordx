@@ -111,6 +111,49 @@ With just 2 clicks, a **PDF** is converted into a **DOCX**, using the **_pdf2doc
     </details>
 </div>
 
+<details>
+  <summary>Images pdftoword-V2.1.2</summary>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr">
+    <div style="text-align:center; margin:34px">
+      <p>Image 1: Main interface</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+    </div>
+    <div style="text-align:center; margin:34px">
+      <p>Image 2: Open source license</p>
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+    </div>
+  </div>
+  <div style="text-align:center; margin:34px auto 113px auto">
+    <p>Image 3: Help on how to use the program</p>
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+  </div>
+</details>
+
+## Local Usage
+
+> [!NOTE]
+> Always run the commands from the root of the project.
+> 
+> The execution file is `./src/pdf2wordx/_pdf2wordx.py`
+
+1. Clone the repository
+```shell
+git clone https://github.com/tutosrive/pdf2wordx.git
+```
+2. Open the cloned **GitHub** folder (_pdf2wordx_) with your favorite editor
+3. (optional): Create a virtual environment
+```shell
+python -m venv .venv
+```
+4. Install the dependencies
+```shell
+pip install -r requirements.txt
+```
+5. Open your editor’s terminal and run:
+```shell
+python ./src/pdf2wordx/_pdf2wordx.py
+```
+
 
 ## Will there be updates?
 
