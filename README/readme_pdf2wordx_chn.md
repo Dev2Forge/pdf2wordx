@@ -112,20 +112,20 @@ pip install pdf2wordx
 </div>
 
 <details>
-  <summary>pdftoword-V2.1.2 图像</summary>
+  <summary>pdftoword-V2.1.1 图像</summary>
   <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr">
     <div style="text-align:center; margin:34px">
       <p>图像 1：主界面</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-1.png">
     </div>
     <div style="text-align:center; margin:34px">
       <p>图像 2：开源许可证</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-2.png">
     </div>
   </div>
   <div style="text-align:center; margin:34px auto 113px auto">
     <p>图像 3：使用程序的帮助</p>
-    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-3.png">
   </div>
 </details>
 

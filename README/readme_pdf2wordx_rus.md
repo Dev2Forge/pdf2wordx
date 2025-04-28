@@ -112,20 +112,20 @@ pip install pdf2wordx
 </div>
 
 <details>
-  <summary>Изображения pdftoword-V2.1.2</summary>
+  <summary>Изображения pdftoword-V2.1.1</summary>
   <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr">
     <div style="text-align:center; margin:34px">
       <p>Изображение 1: Основной интерфейс</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img1" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-1.png">
     </div>
     <div style="text-align:center; margin:34px">
       <p>Изображение 2: Лицензия с открытым исходным кодом</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img2" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-2.png">
     </div>
   </div>
   <div style="text-align:center; margin:34px auto 113px auto">
     <p>Изображение 3: Справка по использованию программы</p>
-    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" name="img3" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-3.png">
   </div>
 </details>
 

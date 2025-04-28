@@ -114,20 +114,20 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
 </details>
 
 <details>
-  <summary>Imágenes pdftoword-V2.1.2</summary>
+  <summary>Imágenes pdftoword-V2.1.1</summary>
   <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto">
     <div style="text-align:center; margin:34px">
       <p>Imagen 1: Interfaz principal</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-1.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-1.png">
     </div>
     <div style="text-align:center; margin:34px">
       <p>Imagen 2: Licencia de código abierto</p>
-      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-2.png">
+      <image style="max-width:100%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-2.png">
     </div>
   </div>
   <div style="text-align:center; margin:34px auto 113px auto">
     <p>Imagen 3: Ayuda sobre como usar el programa</p>
-    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.2-3.png">
+    <image style="max-width:80%; box-shadow: 1px 2px 61px #000d83; border-radius: 23px" src="https://cdn.jsdelivr.net/gh/tutosrive/images-projects-srm-trg@main/img-pdftoword/v2.1.2-IMG/pdf2wordx-v2.1.1-3.png">
   </div>
 </details>
 
