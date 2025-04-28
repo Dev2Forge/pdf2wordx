@@ -1,0 +1,1 @@
+from ._pdf2wordx import run

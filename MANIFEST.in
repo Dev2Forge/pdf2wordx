@@ -1,0 +1,2 @@
+include src/pdf2wordx/*.ico
+recursive-include src/pdf2wordx/files *
