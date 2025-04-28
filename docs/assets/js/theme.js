@@ -49,7 +49,7 @@ async function language(language, nameRadiosMain) {
   // Cambiar el idioma también del README.md
   getLanpReadme(
     nameRadiosMain,
-    "pdftoword",
+    "pdf2wordx",
     "pdftoword_container",
     "btn-pdftoword-lan"
   );
@@ -193,7 +193,7 @@ function radiosLanWho(nameRadios) {
     case "lan-pdftoword":
       getLanpReadme(
         "lan-pdftoword",
-        "pdftoword",
+        "pdf2wordx",
         "pdftoword_container",
         "btn-pdftoword-lan"
       );
@@ -237,7 +237,7 @@ function main() {
   // getLanpdf2docx('selectLanpdf2docx');
   getLanpReadme(
     "lan-pdftoword",
-    "pdftoword",
+    "pdf2wordx",
     "pdftoword_container",
     "btn-pdftoword-lan"
   );

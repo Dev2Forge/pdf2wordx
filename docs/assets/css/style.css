@@ -18,7 +18,6 @@ body {
   color: var(--body-color);
   width: 100%;
   background-color: var(--bg-color);
-  text-align: justify;
   font-family: Verdana Geneva, Tahoma, sans-serif;
   padding: 13px 55px;
   box-sizing: border-box;
@@ -78,14 +77,14 @@ nav img {
 
 .title-main {
   color: var(--titles-color);
-  filter: drop-shadow(3px 2px 2px var(--body-color));
+  filter: drop-shadow(2px 2px 3px black);
   font-family: "copyduck";
   font-size: xx-large;
-  transform: translateY(-50px);
-  margin: auto auto -90px auto !important;
+  margin: 20px auto 10px auto; /* ← MARGIN ARREGLADO */
+  text-align: center;
 }
 
-body div:not(.banner):not(.banner *) {
+div {
   margin: 45px auto;
 }
 
@@ -94,16 +93,13 @@ pre {
   color: wheat;
   padding: 12px;
   border-radius: 12px;
-  display: block;
-  text-wrap: wrap;
-  width: 60%;
+  display: inline-block;
 }
 
 h2 {
   color: var(--title-second-color);
-  font-family: Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: xx-large;
+  font-family: Impact, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 a {
@@ -151,9 +147,8 @@ a {
 
 .dropdown-2 {
   position: absolute;
-  /* margin: auto auto auto 9%; */
-  display: inline-block;
   margin: 12px auto auto calc(10% - 10px);
+  display: inline-block;
 }
 
 .dropdown-content-2 {
@@ -199,11 +194,6 @@ a {
   margin: auto -223px auto auto;
 }
 
-.container-flags {
-  display: inline-flex;
-  margin: auto auto auto 5px;
-}
-
 .dropdown-content-3 label {
   display: block;
   padding: 8px 16px;
@@ -218,9 +208,35 @@ a {
   display: inline-flex;
 }
 
+.spam-download {
+  box-shadow: 1px 1px 3px var(--body-color);
+  padding: 22px;
+  width: 40%;
+  height: 110px;
+  border-radius: 23px;
+  text-align: left;
+}
+
+.spam-download > div {
+  transform: translateY(-42px);
+  width: 290px;
+}
+
 .img-lan {
   filter: drop-shadow(1px 1px 5px rgb(255, 0, 0));
   max-width: 100%;
+}
+
+.color-selector {
+  background-color: transparent;
+  border: none;
+  box-sizing: content-box;
+  filter: drop-shadow(1px 3px 1px var(--body-color));
+  position: fixed;
+  top: 98px;
+  margin: auto auto auto calc(100% - 120px);
+  display: block;
+  z-index: 1;
 }
 
 .moon-theme {
@@ -232,26 +248,7 @@ a {
   z-index: 1;
 }
 
-.spam-download {
-  box-shadow: 1px 1px 3px var(--body-color);
-  padding: 22px;
-  width: 30%;
-  height: 110px;
-  border-radius: 23px;
-}
-
-.spam-download > div {
-  transform: translateY(-42px);
-  width: 290px;
-}
-
-.autor {
-  text-align: center;
-}
-.autor > pre {
-  display: inline-block;
-  width: 20%;
-}
+/* ????????? */
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -326,9 +323,10 @@ a {
   }
 
   pre {
-    width: 100%;
-    transform: translateX(-32px);
+    /* width: 100%; */
+    /* transform: translateX(-32px); */
     text-align: left;
+    overflow-x: scroll;
   }
 }
 
@@ -346,6 +344,7 @@ a {
     width: 100%;
     transform: translateX(-32px);
     text-align: left;
+    overflow-x: scroll;
   }
 }
 
@@ -358,5 +357,6 @@ a {
     width: 100%;
     transform: translateX(-32px);
     text-align: left;
+    overflow-x: scroll;
   }
 }
