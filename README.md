@@ -37,6 +37,12 @@ Descargas soruceforge.net ==> [![Download pdf2wordx Source Forget](https://img.s
 ```shell
 pip install pdf2wordx
 ```
+> Una vez instalado (pdf2wordx), ejecute en una consola
+> ```shell
+> pdf2wordx
+> ```
+> Esto iniciará el programa.
+
 ---
 
 > ### Visite [pdf2wordx](https://tutosrive.github.io/pdf2wordx/) para más documentación
