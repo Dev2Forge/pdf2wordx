@@ -1,6 +1,6 @@
-# pdf2wordx [Código](https://github.com/tutosrive/pdf2wordx/tree/main/src/pdf2wordx/)
+# pdf2wordx [Código](https://github.com/dev2forge/pdf2wordx/tree/main/src/pdf2wordx/)
 
-[ES](README.md) | [CHN](https://github.com/tutosrive/pdf2wordx/blob/main/README/readme_pdf2wordx_chn.md) | [EN](https://github.com/tutosrive/pdf2wordx/blob/main/README/readme_pdf2wordx_en.md) | [RUS](https://github.com/tutosrive/pdf2wordx/blob/main/README/readme_pdf2wordx_rus.md) | [FRA](https://github.com/tutosrive/pdf2wordx/blob/main/README/readme_pdf2wordx_fra.md)
+[ES](README.md) | [CHN](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_chn.md) | [EN](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_en.md) | [RUS](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_rus.md) | [FRA](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_fra.md)
 
 ---
 
@@ -146,7 +146,7 @@ En tan solo 2 clicks se convierte un **PDF** en un **DOCX**, usa la librería **
 
 1. Clone el repositorio
 ```shell
-git clone https://github.com/tutosrive/pdf2wordx.git
+git clone https://github.com/dev2forge/pdf2wordx.git
 ```
 2. Abra la carpeta que se clonó de **GitHub** (_pdf2wordx_) con su editor favorito
 3. (opcional): Cree un entorno virtual
@@ -170,4 +170,4 @@ Estaré subiendo en cuanto sea posible nuevas versiones del programa, con mejora
 
 # Releases
 
-<a href="https://github.com/tutosrive/pdf2wordx/releases/">Pdf TO Word Releases</a>
+<a href="https://github.com/dev2forge/pdf2wordx/releases/">pdf2wordx Releases (`.exe`)</a>
