@@ -1,5 +1,7 @@
 # pdf2wordx [Código](https://github.com/dev2forge/pdf2wordx/tree/main/src/pdf2wordx/)
 
+> Support:  [support@dev2forge.software](mailto:support@dev2forge.software)
+
 [ES](README.md) | [CHN](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_chn.md) | [EN](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_en.md) | [RUS](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_rus.md) | [FRA](https://github.com/dev2forge/pdf2wordx/blob/main/README/readme_pdf2wordx_fra.md)
 
 ---
