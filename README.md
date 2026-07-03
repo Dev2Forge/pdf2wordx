@@ -43,6 +43,12 @@ pip install pdf2wordx
 > Esto iniciará el programa.
 
 ---
+Check This:
+
+<a href="https://mintlify.wiki/dev2forge/pdf2wordx">
+    <img height="250" alt="image" src="https://github.com/user-attachments/assets/7edd5e90-9b21-45fc-a420-3ea0a84a827d" />
+</a>
+---
 
 > ### Visite [pdf2wordx](https://docs.dev2forge.software/pdf2wordx/) para más documentación
 
